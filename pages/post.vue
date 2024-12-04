@@ -13,7 +13,7 @@ const filterEdData = computed(() => {
 <template>
   <div>
     <h1>Normal Component(Search work)</h1>
-    <input type="text" v-model="searchText" placeholder="Search" />
+    <input type="text" v-model="searchText" placeholder="Search Title" />
     <pre>{{ filterEdData }}</pre>
   </div>
 </template>
